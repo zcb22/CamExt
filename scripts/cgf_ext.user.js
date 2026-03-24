@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CamGirlFinder: Direct Links + NR Links
 // @namespace    zcb
-// @version      1.0
+// @version      1.1
 // @description  Makes "clean" links to sites and integrates NRTool links
 // @author       zcb22
 // @match        https://*.camgirlfinder.net/*
@@ -21,14 +21,15 @@
         'cs':  { d: 'https://camsoda.com/', n: 'cs/' },
         'cb':  { d: 'https://chaturbate.com/', n: 'cb/' },
         'ctv': { d: 'https://cherry.tv/', n: '' },
-        'f4f': { d: 'https://www.flirt4free.com/?model=', n: 'f4f/' },
+        'f4f': { d: 'https://flirt4free.com/?model=', n: 'f4f/' },
         'im':  { d: 'https://imlive.com/live-sex-chats/cam-girls/video-chats/', n: '' },
         'lj':  { d: 'https://livejasmin.com/', n: '' },
-        'mfc': { d: 'https://www.myfreecams.com/#', n: '' },
+        'mfc': { d: 'https://myfreecams.com/#', n: '' },
         'stv': { d: 'https://showup.tv/', n: '' },
         'sm':  { d: 'https://streamate.com/cam/', n: '' },
         'sr':  { d: 'https://streamray.com/', n: '' },
-        'sc':  { d: 'https://stripchat.com/', n: 'sc/' }
+        'sc':  { d: 'https://stripchat.com/', n: 'sc/' },
+		'xl':  { d: 'https://xlovecam.com/chat/', n: '' },
     };
 
     // Inject UI styles (vertical properties for easy editing)
