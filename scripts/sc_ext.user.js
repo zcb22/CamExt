@@ -18,7 +18,7 @@
 
     // Link generators
     const TOOLS = {
-        'NRTOOL': (n) => `https://nrtool.to/nrtool/history/sc/${n}`,
+        'NRTOOL': (n) => `https://nrtool.st/nrtool/history/sc/${n}`,
         'CGF':    (n) => `https://camgirlfinder.net/models/sc/${n}#1`
     };
 
