@@ -1,20 +1,20 @@
 // ==UserScript==
 // @name         NRTool: CGF Link
 // @namespace    zcb_dev
-// @version      1.1
+// @version      1.2
 // @description  Adds a CamGirlFinder link
 // @author       zcb22
-// @match        https://*.nrtool.to/nrtool/history/*/*/*
+// @match        https://*.nrtool.st/nrtool/history/*/*/*
 // @grant        none
 // @run-at       document-idle
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=nrtool.to
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=nrtool.st
 // ==/UserScript==
 
 (function () {
     'use strict';
 
     // Domain lock for safety
-    if (!location.hostname.includes('nrtool.to')) return;
+    if (!location.hostname.includes('nrtool.st')) return;
 
     // Platform mapping for URL compatibility
     const PLATFORMS = {
