@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Cam4: Extra Links
 // @namespace    zcb_dev
-// @version      1.2
+// @version      1.3
 // @description  Adds quick links to NRTool and CGF on Cam4 model profile pages for easier navigation
 // @author       zcb22
 // @match        https://*.cam4.com/*
@@ -18,7 +18,7 @@
 
     // Link generators
     const TOOLS = {
-        'NRTOOL': (n) => `https://nrtool.to/nrtool/history/cam4/${n}`,
+        'NRTOOL': (n) => `https://nrtool.st/nrtool/history/cam4/${n}`,
         'CGF':    (n) => `https://camgirlfinder.net/models/c4/${n}#1`
     };
 
