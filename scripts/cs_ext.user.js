@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Camsoda: Extra Links
 // @namespace    zcb_dev
-// @version      1.2.1
+// @version      1.3
 // @description  Adds quick links to NRTool and CGF on Camsoda model profile pages for easier navigation
 // @author       zcb22
 // @match        https://*.camsoda.com/*
@@ -18,7 +18,7 @@
 
     // Link generators
     const TOOLS = {
-        'NRTOOL': (n) => `https://nrtool.to/nrtool/history/cs/${n}`,
+        'NRTOOL': (n) => `https://nrtool.st/nrtool/history/cs/${n}`,
         'CGF':    (n) => `https://camgirlfinder.net/models/cs/${n}#1`
     };
 
