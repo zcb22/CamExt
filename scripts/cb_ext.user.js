@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Chaturbate: Extra Links
 // @namespace    zcb_dev
-// @version      1.2
+// @version      1.3
 // @description  Adds quick links to NRTool, CGF and RECU on Chaturbate model profile pages for easier navigation
 // @author       zcb22
 // @match        https://*.chaturbate.com/*
@@ -18,7 +18,7 @@
 
     // Link generators
     const TOOLS = {
-        'NRTOOL': (n) => `https://nrtool.to/nrtool/history/cb/${n}`,
+        'NRTOOL': (n) => `https://nrtool.st/nrtool/history/cb/${n}`,
         'CGF':    (n) => `https://camgirlfinder.net/models/cb/${n}#1`,
         'RECU':   (n) => `https://recu.me/performer/${n}`
     };
