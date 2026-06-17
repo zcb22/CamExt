@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BongaCams: Extra Links
 // @namespace    zcb_dev
-// @version      1.0
+// @version      1.1
 // @description  Adds quick links to NRTool and CGF on BongaCams model profile pages for easier navigation
 // @author       zcb22
 // @match        https://*.bongacams.com/*
@@ -18,7 +18,7 @@
 
     // Link generators
     const TOOLS = {
-        'NRTool': (n) => `https://nrtool.to/nrtool/search?site=bc&s=${n}`,
+        'NRTool': (n) => `https://nrtool.st/nrtool/search?site=bc&s=${n}`,
         'CGF':    (n) => `https://camgirlfinder.net/models/bc/${n}#1`
     };
 
