@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CamGirlFinder: Direct Links + NR Links
 // @namespace    zcb_dev
-// @version      1.1
+// @version      1.2
 // @description  Makes "clean" links to sites and integrates NRTool links
 // @author       zcb22
 // @match        https://*.camgirlfinder.net/*
@@ -88,7 +88,7 @@
 
         if (h1 && h1A && platCode && CONFIG[platCode]?.n) {
             let btn = h1.querySelector('.nr-btn');
-            const targetUrl = `https://nrtool.to/nrtool/history/${CONFIG[platCode].n}${encodeURIComponent(h1A.innerText.trim())}`;
+            const targetUrl = `https://nrtool.st/nrtool/history/${CONFIG[platCode].n}${encodeURIComponent(h1A.innerText.trim())}`;
 
             if (!btn) {
                 btn = document.createElement('a');
@@ -110,7 +110,7 @@
             const existingBtn = container?.querySelector('.nr-btn');
 
             if (nameEl && container && CONFIG[plat]?.n) {
-                const targetUrl = `https://nrtool.to/nrtool/history/${CONFIG[plat].n}${encodeURIComponent(nameEl.innerText.trim())}`;
+                const targetUrl = `https://nrtool.st/nrtool/history/${CONFIG[plat].n}${encodeURIComponent(nameEl.innerText.trim())}`;
 
                 if (!existingBtn) {
                     container.appendChild(document.createTextNode(' | '));
