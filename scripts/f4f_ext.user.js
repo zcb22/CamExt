@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Flirt4Free: Extra Links
 // @namespace    zcb_dev
-// @version      1.0
+// @version      1.1
 // @description  Adds quick links to NRTool and CGF on Flirt4Free model profile pages for easier navigation
 // @author       zcb22
 // @match        https://*.flirt4free.com/*
@@ -18,7 +18,7 @@
 
     // Link generators
     const TOOLS = {
-        'NRTool': (n) => `https://nrtool.to/nrtool/history/f4f/${n}`,
+        'NRTool': (n) => `https://nrtool.st/nrtool/history/f4f/${n}`,
         'CGF':    (n) => `https://camgirlfinder.net/models/f4f/${n}#1`
     };
 
