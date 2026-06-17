@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stripchat: Extra Links
 // @namespace    zcb_dev
-// @version      1.1
+// @version      1.2
 // @description  Adds quick links to NRTool and CGF on Stripchat model profile pages for easier navigation
 // @author       zcb22
 // @match        https://*.stripchat.com/*
