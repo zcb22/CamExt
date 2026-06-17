@@ -13,7 +13,7 @@
 // @match        https://*.camsoda.com/*
 // @match        https://*.flirt4free.com/*
 // @match        https://*.stripchat.com/*
-// @match        https://*.nrtool.to/nrtool/history/*
+// @match        https://*.nrtool.st/nrtool/history/*
 //
 // @require      https://github.com/zcb22/CamExt/raw/refs/heads/main/scripts/bc_ext.user.js
 // @require      https://github.com/zcb22/CamExt/raw/refs/heads/main/scripts/c4_ext.user.js
